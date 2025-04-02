@@ -1,0 +1,36 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  border-radius: 8px;
+  padding: 8px;
+  gap: 16px;
+  align-items: flex-start;
+  justify-content: center;
+  margin-bottom: 16px;
+  max-width: 1200px;
+}
+
+.label {
+  font-size: 18px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  font-weight: bold;
+}
+
+.input {
+  padding: 8px;
+  border-radius: 8px;
+  font-size: 18px;
+  margin-left: 16px;
+}
+
+.button {
+  align-self: center;
+  border: 1px solid #213547;
+}
+
+.button:hover {
+  color: rgb(255, 255, 255);
+  background-color: #213547;
+}
